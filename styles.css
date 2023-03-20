@@ -1,0 +1,15 @@
+header{
+    padding-bottom: 50px;
+}
+img{
+    width: 10%;
+    float: left;
+}
+nav{
+    width: 90%;
+    float: right;
+    text-align: center;
+}
+body{
+    float: none;
+}
