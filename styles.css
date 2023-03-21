@@ -2,7 +2,7 @@ header{
     padding-bottom: 50px;
 }
 img{
-    width: 10%;
+    width: 12%;
     float: left;
 }
 nav{
@@ -12,4 +12,8 @@ nav{
 }
 body{
     float: none;
+}
+button{
+    margin-left: 5%;
+    margin-right: 5%;
 }
