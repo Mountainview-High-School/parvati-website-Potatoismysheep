@@ -1,3 +1,7 @@
+html{
+    background-color: #4CE8D4;
+}
+
 header{
     padding-bottom: 50px;
 }
@@ -5,15 +9,49 @@ img{
     width: 12%;
     float: left;
 }
+#navb{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 nav{
     width: 90%;
     float: right;
     text-align: center;
 }
 body{
+    /*doing float none so that body isn't set next to the image*/
     float: none;
 }
-button{
-    margin-left: 5%;
-    margin-right: 5%;
+/*did each one individually so that I don't target with id(will be long and painful) 
+and so I can change each size with differant things e.g colours*/
+p{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h5{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+h6{
+    font-family: 'Quicksand', sans-serif;
+    
 }
