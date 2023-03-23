@@ -1,5 +1,5 @@
 html{
-    background-color: #4CE8D4;
+    background-color: #98D2EB;
 }
 
 header{
@@ -10,6 +10,13 @@ img{
     float: left;
 }
 #navb{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #00FDBC;
     font-family: 'Quicksand', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
