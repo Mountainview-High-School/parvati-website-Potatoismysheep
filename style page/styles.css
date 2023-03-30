@@ -1,7 +1,6 @@
 html{
     background-color: #98D2EB;
 }
-
 header{
     padding-bottom: 50px;
     min-height: 60px;
@@ -10,15 +9,16 @@ header{
 #logo{
     /*left it here as might need it*/
     font-family: 'Quicksand', sans-serif;
+    border: 2px;
 }
 img{
     width: 20%;
-    float: left;
+    display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
 }
 #navb{
-    text-size-adjust: 250%;
+    font-size: 200%;
     color: black;
     text-decoration: none;
     border: 1px solid black;
@@ -30,7 +30,15 @@ img{
     margin-left: 5%;
     margin-right: 5%;
 }
-
+#navb:hover{
+    background-color: #4CE8D4;
+}
+a{
+    /*the text won't agust/ i can't with a id, so i'm using the a tag to adjust it.*/
+    /*I'm so stupid not realizing it's font size, not size*/
+    /*now that I check, I can adjust it with the id... my life is pain*/
+    /*I'll leave this here so you can tell and see what work I went through*/
+}
 nav{
     width: 90%;
     float: right;
@@ -72,4 +80,10 @@ h5{
 h6{
     font-family: 'Quicksand', sans-serif;
     
+}
+ul{
+    font-family: 'Quicksand', sans-serif;
+}
+li{
+    font-family: 'Quicksand', sans-serif;
 }
