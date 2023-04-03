@@ -34,7 +34,7 @@ img{
     background-color: #4CE8D4;
 }
 a{
-    /*the text won't agust/ i can't with a id, so i'm using the a tag to adjust it.*/
+    /*the text won't adjust with a id, so i'm using the A tag to adjust it.*/
     /*I'm so stupid not realizing it's font size, not size*/
     /*now that I check, I can adjust it with the id... my life is pain*/
     /*I'll leave this here so you can tell and see what work I went through*/
@@ -86,4 +86,7 @@ ul{
 }
 li{
     font-family: 'Quicksand', sans-serif;
+}
+#ml{
+    font-size: 150%;
 }
