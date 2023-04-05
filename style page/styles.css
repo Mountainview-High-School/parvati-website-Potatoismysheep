@@ -10,13 +10,18 @@ header{
     /*left it here as might need it*/
     font-family: 'Quicksand', sans-serif;
     border: 2px;
+    /*looks like I did, I need to do more photos*/
+    /*relized I have to use another id to target the logo image*/
+    
+    
 }
-img{
+#limg{
     width: 20%;
     display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
 }
+
 #navb{
     font-size: 200%;
     color: black;
@@ -89,4 +94,9 @@ li{
 }
 #ml{
     font-size: 150%;
+}
+#S1{
+    width: 20%;
+    float: right;
+    padding: 2px;
 }
