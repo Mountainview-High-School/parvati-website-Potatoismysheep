@@ -59,31 +59,38 @@ body{
 and so I can change each size with differant things e.g colours*/
 p{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 200%;
     
 }
 
 h1{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 500%;
     
 }
 h2{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 450%;
     
 }
 h3{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 400%;
     
 }
 h4{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 350%;
     
 }
 h5{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 300%;
     
 }
 h6{
     font-family: 'Quicksand', sans-serif;
+    text-size-adjust: 250%;
     
 }
 ul{
@@ -105,5 +112,8 @@ li{
     display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
-    width: 20%;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 100%;
+    
 }
